@@ -6,7 +6,7 @@
 //
 import SwiftUI
 
-
+//What needs to be added 
 class ListItem: Identifiable {
     let id: UUID
     var text: String

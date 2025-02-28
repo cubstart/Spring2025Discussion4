@@ -6,7 +6,7 @@
 //
 import SwiftUI
 
-
+//What need to be added
 class ListViewModel {
     var todoItems: [ListItem] = []
     var newTodo : String = ""

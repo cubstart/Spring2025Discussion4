@@ -7,6 +7,7 @@
 import SwiftUI
 
 struct ListRowView: View {
+    //Something here may need to change 
     @Binding var list: ListItem
     
     var body: some View {

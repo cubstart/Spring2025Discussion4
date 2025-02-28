@@ -7,6 +7,11 @@
 import SwiftUI
 
 struct ListView: View {
+    //If we change one variable it will cascade into other variables 
+    
+    
+    //Maybe You should change the
+    
     @State private var newTodo: String = ""
     @State private var filterMode: FilterMode = .all
     @State private var todoItems: [ListItem] = []
@@ -25,6 +30,9 @@ struct ListView: View {
             return todoItems.filter { $0.isComplete }
         }
     }
+    
+    //All this code right here feels repetitive Maybe there is something we use
+    
     
     var body: some View {
         NavigationStack {
